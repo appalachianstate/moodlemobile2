@@ -1,0 +1,123 @@
+$black: #3a3a3a;
+$core-color: #ffcc00;
+$core-color-init-screen: $black !default;
+$core-color-init-screen-alt: $black !default;
+$core-top-tabs-color-active: $black !default;
+$action-sheet-md-title-color: $black;
+
+ion-app.app-root.ios {
+  .button-ios-light {
+    color: $black !important;
+  }
+}
+
+ion-app.app-root.md {
+  .button-md-light {
+    color: $black !important;
+  }
+  
+  .action-sheet-md {
+    .action-sheet-selected {
+      color: #cd5113 !important;
+    }
+  }
+}
+
+ion-app.app-root {
+  ion-select {
+    .select-icon .select-icon-inner {
+      color: $black !important;
+    }
+  }
+
+  ion-select.core-button-select,
+  .core-button-select {
+    color: $black !important;
+
+    .select-icon .select-icon-inner {
+      color: $black !important;
+    }
+  }
+}
+
+ion-select {
+  color: $black !important;
+}
+
+ion-app.app-root .core-tabs-bar {
+  a.tab-slide {
+    &[aria-selected=true] {
+      border-bottom: 2px solid $core-color !important;
+    }
+  }
+}
+
+.action-sheet-md .action-sheet-title {
+  color: $black !important;
+}
+
+
+.item-radio-checked.item-ios ion-label, 
+.item-radio-checked.item-md ion-label, 
+.item-radio-checked.item-wp ion-label {
+  color: $black !important;
+}
+
+.button-clear-ios, 
+.button-clear-md,
+.button-clear-wp {
+  color: $black !important;
+}
+.alert-ios .alert-button,
+.alert-md .alert-button,
+.alert-wp .alert-button {
+  color: $black !important;
+}
+
+.item-ios.item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner, 
+.item-md.item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner, 
+.item-wp.item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner, 
+.item-ios.item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner, 
+.item-md.item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner, 
+.item-wp.item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner {
+  border-bottom-color: $black !important;
+  -webkit-box-shadow: inset 0 -1px 0 0 $black !important;
+  box-shadow: inset 0 -1px 0 0 $black !important;;
+}
+
+.item-input-has-focus .label-ios[stacked],
+.item-input-has-focus .label-md[stacked],
+.item-input-has-focus .label-wp[stacked],
+.input-has-focus .label-ios[stacked],
+.input-has-focus .label-md[stacked],
+.input-has-focus .label-wp[stacked],
+.item-input-has-focus .label-ios[floating],
+.item-input-has-focus .label-md[floating],
+.item-input-has-focus .label-wp[floating],
+.input-has-focus .label-ios[floating], 
+.input-has-focus .label-md[floating], 
+.input-has-focus .label-wp[floating] {
+  color: $black !important;
+}
+
+.bar-button-default-ios,
+.bar-button-default.bar-button-ios-default,
+.bar-button-clear-ios-default, 
+.bar-button-default-md,
+.bar-button-default.bar-button-md-default,
+.bar-button-clear-md-default, 
+.bar-button-default-wp,
+.bar-button-default.bar-button-wp-default,
+.bar-button-clear-wp-default {
+  color: $black !important;
+}
+
+ion-app.app-root page-core-user-profile .core-user-communication-handlers .core-user-profile-handler {
+  color: $black !important;
+}
+
+.button-outline-ios, 
+.button-outline-md,
+.button-outline-wp {
+  color: $black !important;
+}

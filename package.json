@@ -1,10 +1,10 @@
 {
-  "name": "moodlemobile",
+  "name": "asulearnmobile",
   "version": "3.6.0",
-  "description": "The official app for Moodle.",
+  "description": "The official app for AsULearn.",
   "author": {
-    "name": "Moodle Pty Ltd.",
-    "email": "mobile@moodle.com"
+    "name": "Appalachian State University",
+    "email": "ltsadmin@appstate.edu"
   },
   "config": {
     "ionic_webpack": "./config/webpack.config.js",
@@ -79,7 +79,7 @@
     "@types/promise.prototype.finally": "2.0.2",
     "chart.js": "2.7.2",
     "com-darryncampbell-cordova-plugin-intent": "1.1.1",
-    "cordova-android": "7.1.2",
+    "cordova-android": "7.1.4",
     "cordova-android-support-gradle-release": "2.0.1",
     "cordova-clipboard": "1.2.1",
     "cordova-ios": "4.5.5",
@@ -119,9 +119,9 @@
     "zone.js": "0.8.26"
   },
   "devDependencies": {
-    "@ionic/app-scripts": "3.1.9",
-    "electron-rebuild": "1.8.1",
+    "@ionic/app-scripts": "^3.2.1",
     "electron-builder-lib": "20.23.1",
+    "electron-rebuild": "1.8.1",
     "gulp": "4.0.0",
     "gulp-clip-empty-files": "0.1.2",
     "gulp-flatten": "0.4.0",
@@ -176,8 +176,8 @@
   },
   "main": "desktop/electron.js",
   "build": {
-    "appId": "com.moodle.moodledesktop",
-    "productName": "Moodle Desktop",
+    "appId": "edu.appstate.asulearndesktop",
+    "productName": "AsULearn Desktop",
     "files": [
       "desktop/electron.js",
       "www/**/*",
